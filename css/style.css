@@ -1,0 +1,67 @@
+body {
+    font-family: 'cursive';
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+select {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+    width: 90px;
+    height: 90px;
+    font-size: 18px;
+    background-color: plum;
+    color: black;
+    border-radius: 15px;
+    border: none;
+    margin: 30px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: mediumpurple;
+}
+
+img {
+    width: 60%;
+    height: auto;
+    margin: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#myStudentId {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+}
